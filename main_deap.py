@@ -4,7 +4,7 @@
 import random
 from matplotlib import pyplot as plt
 import numpy
-import pruebas as solver
+import eval_puzzles as solver
 import piece_functions as functions
 from deap_config import toolbox
 from deap import algorithms

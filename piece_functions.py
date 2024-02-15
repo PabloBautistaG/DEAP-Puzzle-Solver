@@ -185,7 +185,7 @@ def load(ROWS,COLUMNS):
     pieces = []
     puzzles = []
     borders = []
-    for i in range(0,30):
+    for i in range(0,10):
         # Imagen con las piezas en desorden
         my_image = Image.open("Kaggle_Dataset_JigsawPuzzle/Gravity Falls/puzzle_2x2/train/" + str(i) + ".jpg")
         # Imagen del rompecabezas correcto, su uso es para determinar si la solución generada
